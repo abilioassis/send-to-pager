@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎯</text></svg>"
+    />
+    <title>Send to Pager</title>
+  </head>
+  <body>
+    <main class="container flex">
+      <section class="pager flex">
+        <h2 class="title">Pager</h2>
+        <div id="pager-msg" class="msg">Relax</div>
+      </section>
+      <section class="phone flex">
+        <h2 class="title">Phone</h2>
+        <div id="phone-number" class="number"></div>
+        <div class="keyboard grid">
+          <button type="button" class="btn key">1</button>
+          <button type="button" class="btn key">2</button>
+          <button type="button" class="btn key">3</button>
+          <button type="button" class="btn key">4</button>
+          <button type="button" class="btn key">5</button>
+          <button type="button" class="btn key">6</button>
+          <button type="button" class="btn key">7</button>
+          <button type="button" class="btn key">8</button>
+          <button type="button" class="btn key">9</button>
+          <button type="button" class="btn key">*</button>
+          <button type="button" class="btn key">0</button>
+          <button type="button" class="btn key">#</button>
+        </div>
+        <button type="button" class="btn reset">Reset</button>
+        <button type="button" class="btn send">Send</button>
+        <p id="status" class="status">Sending...</p>
+      </section>
+    </main>
+    <script src="js/index.js"></script>
+  </body>
+</html>
