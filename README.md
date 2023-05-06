@@ -10,7 +10,7 @@ This is a solution to the [M3 - Send to Pager](https://scrimba.com/scrim/co9b447
 
 - Live Site: [Netlify](https://transcendent-moonbeam-72a749.netlify.app/)
 - Codebase: [Github](https://github.com/abilioassis/send-to-pager)
-- Code review: [Scrimba]()
+- Code review: [Scrimba](https://scrimba.com/scrim/co5f54280bceaa33ceb424f10)
 
 ## Built with
 

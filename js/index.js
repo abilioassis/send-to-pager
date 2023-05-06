@@ -48,5 +48,7 @@ function sendToPager() {
 }
 
 function updatePhoneNumber(btn) {
-  phoneNumberEl.innerHTML += btn.innerText;
+  if (phoneNumberEl.textContent.length < 10) {
+    phoneNumberEl.innerHTML += btn.innerText;
+  }
 }
